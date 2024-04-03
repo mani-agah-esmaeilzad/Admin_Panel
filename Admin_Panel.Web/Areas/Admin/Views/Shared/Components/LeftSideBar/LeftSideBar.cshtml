@@ -1,0 +1,48 @@
+﻿@using Admin_Panel.DAL.ViewModels.User
+@{
+    UserDetailsViewModel user = ViewData["User"] as UserDetailsViewModel ?? new UserDetailsViewModel();
+}
+<div>
+    <aside id="leftsidebar" class="sidebar">
+        <div class="menu">
+            <ul class="list">
+                <li>
+                    <div class="sidebar-profile clearfix">
+                        <div class="profile-img">
+                            <img src="/Admin/assets/images/usrbig.jpg" alt="profile">
+                        </div>
+                        <div class="profile-info">
+                            <h3>@user.FirstName @user.LastName</h3>
+                            <p>Welcome</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="active">
+                    <a href="#" onClick="return false;" class="menu-toggle">
+                        <i class="menu-icon ti-user"></i>
+                        <span>Manage users</span>
+                    </a>
+                    <ul class="ml-menu">
+                        <li class="active">
+                            <a asp-area="Admin" asp-controller="User" asp-action="List" >User list</a>
+                        </li>
+                        <li class="active">
+                            <a asp-area="Admin" asp-controller="User" asp-action="Create">Create user</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="active">
+                    <a href="#" onClick="return false;" class="menu-toggle">
+                        <i class="menu-icon ti-user"></i>
+                        <span>Manage contact us</span>
+                    </a>
+                    <ul class="ml-menu">
+                        <li class="active">
+                            <a href="#">contact us list</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </aside>
+</div>
