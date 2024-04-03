@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Admin_Panel.Web", "Admin_Panel.Web\Admin_Panel.Web.csproj", "{AD518C5C-BCCE-4869-9A45-702C1B665ED3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Admin_Panel.DAL", "Admin_Panel.DAL\Admin_Panel.DAL.csproj", "{1FBEA620-8380-471B-9600-6C58147D602A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Admin_Panel.Business", "Admin_Panel.Business\Admin_Panel.Business.csproj", "{67651243-E954-4430-BA10-97BB87A8C4A2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AD518C5C-BCCE-4869-9A45-702C1B665ED3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD518C5C-BCCE-4869-9A45-702C1B665ED3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD518C5C-BCCE-4869-9A45-702C1B665ED3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD518C5C-BCCE-4869-9A45-702C1B665ED3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1FBEA620-8380-471B-9600-6C58147D602A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FBEA620-8380-471B-9600-6C58147D602A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FBEA620-8380-471B-9600-6C58147D602A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FBEA620-8380-471B-9600-6C58147D602A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67651243-E954-4430-BA10-97BB87A8C4A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67651243-E954-4430-BA10-97BB87A8C4A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67651243-E954-4430-BA10-97BB87A8C4A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67651243-E954-4430-BA10-97BB87A8C4A2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
