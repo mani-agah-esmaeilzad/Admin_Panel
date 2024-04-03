@@ -3,7 +3,7 @@ using System.Reflection;
 using System.Security.Claims;
 using System.Security.Principal;
 
-namespace Portfolio.Bussines.Extensions
+namespace Admin_Panel.Bussines.Extensions
 {
     public static class EnumExtensions
     {

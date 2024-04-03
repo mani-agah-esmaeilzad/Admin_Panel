@@ -6,7 +6,7 @@ using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Portfolio.Business.Security
+namespace Admin_Panel.Business.Security
 {
     public static class PasswordHasher
     {
